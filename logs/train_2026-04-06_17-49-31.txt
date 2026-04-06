@@ -1,0 +1,38 @@
+[2026-04-06 17:49:31][__main__][INFO] - Logging initialised -> logs/train_2026-04-06_17-49-31.txt
+[2026-04-06 17:49:33][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/google-research-datasets/go_emotions/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[2026-04-06 17:49:33][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/google-research-datasets/go_emotions/add492243ff905527e67aeb8b80c082af02207c3/README.md "HTTP/1.1 200 OK"
+[2026-04-06 17:49:33][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/google-research-datasets/go_emotions/resolve/add492243ff905527e67aeb8b80c082af02207c3/go_emotions.py "HTTP/1.1 404 Not Found"
+[2026-04-06 17:49:33][huggingface_hub.utils._http][WARNING] - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-04-06 17:49:33][httpx][INFO] - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/google-research-datasets/go_emotions/google-research-datasets/go_emotions.py "HTTP/1.1 404 Not Found"
+[2026-04-06 17:49:33][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/datasets/google-research-datasets/go_emotions/revision/add492243ff905527e67aeb8b80c082af02207c3 "HTTP/1.1 200 OK"
+[2026-04-06 17:49:33][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/google-research-datasets/go_emotions/resolve/add492243ff905527e67aeb8b80c082af02207c3/.huggingface.yaml "HTTP/1.1 404 Not Found"
+[2026-04-06 17:49:33][httpx][INFO] - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=google-research-datasets/go_emotions "HTTP/1.1 200 OK"
+[2026-04-06 17:49:33][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/datasets/google-research-datasets/go_emotions/tree/add492243ff905527e67aeb8b80c082af02207c3/raw?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-04-06 17:49:34][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/datasets/google-research-datasets/go_emotions/tree/add492243ff905527e67aeb8b80c082af02207c3?recursive=false&expand=false "HTTP/1.1 200 OK"
+[2026-04-06 17:49:34][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/google-research-datasets/go_emotions/resolve/add492243ff905527e67aeb8b80c082af02207c3/dataset_infos.json "HTTP/1.1 404 Not Found"
+[2026-04-06 17:51:13][__main__][INFO] - Using device: cuda
+[2026-04-06 17:51:13][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-06 17:51:13][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-v3-small/a36c739020e01763fe789b4b85e2df55d6180012/config.json "HTTP/1.1 200 OK"
+[2026-04-06 17:51:13][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-06 17:51:13][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-v3-small/a36c739020e01763fe789b4b85e2df55d6180012/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-04-06 17:51:13][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-04-06 17:51:13][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-04-06 17:51:14][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small "HTTP/1.1 200 OK"
+[2026-04-06 17:51:14][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-06 17:51:14][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-v3-small/a36c739020e01763fe789b4b85e2df55d6180012/config.json "HTTP/1.1 200 OK"
+[2026-04-06 17:51:14][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+[2026-04-06 17:51:14][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+[2026-04-06 17:51:14][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+[2026-04-06 17:51:14][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small/xet-read-token/a36c739020e01763fe789b4b85e2df55d6180012 "HTTP/1.1 200 OK"
+[2026-04-06 17:51:17][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+[2026-04-06 17:51:17][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small "HTTP/1.1 200 OK"
+[2026-04-06 17:51:17][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small/commits/main "HTTP/1.1 200 OK"
+[2026-04-06 17:51:17][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small/discussions?p=0 "HTTP/1.1 200 OK"
+[2026-04-06 17:51:17][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small/commits/refs%2Fpr%2F4 "HTTP/1.1 200 OK"
+[2026-04-06 17:51:17][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/refs%2Fpr%2F4/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+[2026-04-06 17:51:17][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/refs%2Fpr%2F4/model.safetensors "HTTP/1.1 302 Found"
+[2026-04-06 17:51:17][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small/xet-read-token/a59be8aa63396e73dbb45a1487e4cde4be98bfa4 "HTTP/1.1 200 OK"
+[2026-04-06 17:53:36][__main__][INFO] - Split sizes -- train: 168980  val: 21122  test: 21123
+[2026-04-06 17:57:53][__main__][INFO] - Batch metrics CSV -> metrics/batch_metrics_2026-04-06_17-57-53.csv
+[2026-04-06 18:04:41][asyncio][ERROR] - Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Kernel.poll_control_queue() running at /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/site-packages/ipykernel/kernelbase.py:290> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_chain_future.<locals>._call_set_state() at /home/zeus/miniconda3/envs/cloudspace/lib/python3.12/asyncio/futures.py:396]>

@@ -1,0 +1,54 @@
+[2026-04-06 18:08:30][__main__][INFO] - Logging initialised -> logs/train_2026-04-06_18-08-30.txt
+[2026-04-06 18:08:33][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/google-research-datasets/go_emotions/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+[2026-04-06 18:08:33][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/google-research-datasets/go_emotions/add492243ff905527e67aeb8b80c082af02207c3/README.md "HTTP/1.1 200 OK"
+[2026-04-06 18:08:33][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/google-research-datasets/go_emotions/resolve/add492243ff905527e67aeb8b80c082af02207c3/go_emotions.py "HTTP/1.1 404 Not Found"
+[2026-04-06 18:08:33][httpx][INFO] - HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/google-research-datasets/go_emotions/google-research-datasets/go_emotions.py "HTTP/1.1 404 Not Found"
+[2026-04-06 18:08:34][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/datasets/google-research-datasets/go_emotions/revision/add492243ff905527e67aeb8b80c082af02207c3 "HTTP/1.1 200 OK"
+[2026-04-06 18:08:34][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/google-research-datasets/go_emotions/resolve/add492243ff905527e67aeb8b80c082af02207c3/.huggingface.yaml "HTTP/1.1 404 Not Found"
+[2026-04-06 18:08:34][httpx][INFO] - HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=google-research-datasets/go_emotions "HTTP/1.1 200 OK"
+[2026-04-06 18:08:34][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/datasets/google-research-datasets/go_emotions/tree/add492243ff905527e67aeb8b80c082af02207c3/raw?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-04-06 18:08:34][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/datasets/google-research-datasets/go_emotions/tree/add492243ff905527e67aeb8b80c082af02207c3?recursive=false&expand=false "HTTP/1.1 200 OK"
+[2026-04-06 18:08:34][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/datasets/google-research-datasets/go_emotions/resolve/add492243ff905527e67aeb8b80c082af02207c3/dataset_infos.json "HTTP/1.1 404 Not Found"
+[2026-04-06 18:08:43][__main__][INFO] - Using device: cuda
+[2026-04-06 18:08:43][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-06 18:08:43][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-v3-small/a36c739020e01763fe789b4b85e2df55d6180012/config.json "HTTP/1.1 200 OK"
+[2026-04-06 18:08:43][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-06 18:08:43][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-v3-small/a36c739020e01763fe789b4b85e2df55d6180012/tokenizer_config.json "HTTP/1.1 200 OK"
+[2026-04-06 18:08:44][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+[2026-04-06 18:08:44][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+[2026-04-06 18:08:44][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small "HTTP/1.1 200 OK"
+[2026-04-06 18:08:44][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+[2026-04-06 18:08:44][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-v3-small/a36c739020e01763fe789b4b85e2df55d6180012/config.json "HTTP/1.1 200 OK"
+[2026-04-06 18:08:45][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+[2026-04-06 18:08:45][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small "HTTP/1.1 200 OK"
+[2026-04-06 18:08:45][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small/commits/main "HTTP/1.1 200 OK"
+[2026-04-06 18:08:45][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small/discussions?p=0 "HTTP/1.1 200 OK"
+[2026-04-06 18:08:45][httpx][INFO] - HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-small/commits/refs%2Fpr%2F4 "HTTP/1.1 200 OK"
+[2026-04-06 18:08:45][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/refs%2Fpr%2F4/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+[2026-04-06 18:08:45][huggingface_hub.utils._http][WARNING] - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-04-06 18:08:45][httpx][INFO] - HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-small/resolve/refs%2Fpr%2F4/model.safetensors "HTTP/1.1 302 Found"
+[2026-04-06 18:10:39][__main__][INFO] - Split sizes -- train: 168980  val: 21122  test: 21123
+[2026-04-06 18:11:30][__main__][INFO] - Batch metrics CSV -> metrics/batch_metrics_2026-04-06_18-11-30.csv
+[2026-04-06 18:32:29][__main__][INFO] - Epoch 1/5 | Train  loss=0.4255  acc=0.9376  prec=0.1930  rec=0.2043  f1=0.1773 | Val    loss=0.3357  acc=0.9495  prec=0.2883  rec=0.3319  f1=0.2814
+[2026-04-06 18:32:30][__main__][INFO] - Best model saved (val f1=0.2814)
+[2026-04-06 18:53:30][__main__][INFO] - Epoch 2/5 | Train  loss=0.3274  acc=0.9491  prec=0.2960  rec=0.3370  f1=0.2897 | Val    loss=0.3140  acc=0.9481  prec=0.3022  rec=0.3660  f1=0.3052
+[2026-04-06 18:53:31][__main__][INFO] - Best model saved (val f1=0.3052)
+[2026-04-06 19:14:31][__main__][INFO] - Epoch 3/5 | Train  loss=0.3073  acc=0.9482  prec=0.3084  rec=0.3749  f1=0.3127 | Val    loss=0.3083  acc=0.9446  prec=0.2983  rec=0.3902  f1=0.3104
+[2026-04-06 19:14:32][__main__][INFO] - Best model saved (val f1=0.3104)
+[2026-04-06 19:35:32][__main__][INFO] - Epoch 4/5 | Train  loss=0.2953  acc=0.9481  prec=0.3166  rec=0.3957  f1=0.3259 | Val    loss=0.3053  acc=0.9456  prec=0.3012  rec=0.3876  f1=0.3127
+[2026-04-06 19:35:33][__main__][INFO] - Best model saved (val f1=0.3127)
+[2026-04-06 19:56:34][__main__][INFO] - Epoch 5/5 | Train  loss=0.2873  acc=0.9484  prec=0.3234  rec=0.4086  f1=0.3352 | Val    loss=0.3050  acc=0.9444  prec=0.2975  rec=0.3959  f1=0.3130
+[2026-04-06 19:56:35][__main__][INFO] - Best model saved (val f1=0.3130)
+[2026-04-06 19:56:35][__main__][INFO] - Training complete. Batch metrics saved to metrics/batch_metrics_2026-04-06_18-11-30.csv
+[2026-04-06 20:04:31][__main__][INFO] - === Computing train probabilities for threshold optimization ===
+[2026-04-06 20:06:28][__main__][INFO] - === Computing train probabilities for threshold optimization ===
+[2026-04-06 20:07:17][__main__][INFO] - Validation probabilities computed: 21122 samples
+[2026-04-06 20:07:31][__main__][INFO] - === Computing test probabilities ===
+[2026-04-06 20:08:17][__main__][INFO] - Test probabilities computed: 21123 samples
+[2026-04-06 20:08:17][__main__][INFO] - === Evaluating test set with static threshold=0.5 ===
+[2026-04-06 20:08:17][__main__][INFO] - Static threshold evaluation complete -- 21123 samples
+[2026-04-06 20:08:17][__main__][INFO] - === Evaluating test set with optimized thresholds ===
+[2026-04-06 20:08:17][__main__][INFO] - Optimized threshold evaluation complete -- 21123 samples
+[2026-04-06 20:14:00][__main__][INFO] - Eval complete -- macro prec=0.3194 rec=0.4881 f1=0.3760 acc=0.9443
+[2026-04-06 20:14:09][__main__][INFO] - Eval complete -- macro prec=0.3194 rec=0.4881 f1=0.3760 acc=0.9443
+[2026-04-06 20:15:15][__main__][INFO] - Eval complete -- macro prec=0.3541 rec=0.4605 f1=0.3893 acc=0.9415
