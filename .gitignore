@@ -1,1 +1,9 @@
-*.pt
+*.p/
+.idea/
+.vscode/
+.lightning_studio/
+.cursor-server
+.vscode-server
+.windsurf-server
+__pycache__/
+.ipynb_checkpoints/
